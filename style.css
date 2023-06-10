@@ -1,0 +1,51 @@
+body {
+  height: 97.6vh;
+  background: url(https://cdn.discordapp.com/attachments/1029174181646041190/1117087392252305478/Slide_16_9_-_28.png)
+    no-repeat center;
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin-top: 230px;
+  height: 80px;
+  width: 50%;
+  border: 6px solid black;
+  background-color: #d9d9d9;
+  background-image: url("https://cdn.discordapp.com/attachments/1029174181646041190/1117090275983118357/Vector_69.png");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  font-size: 25px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  margin-top: 20px;
+  height: 100px;
+  width: 50%;
+  border: 6px solid black;
+  background-color: #ffffff;
+  font-size: 25px;
+  padding: 0 20px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 44px;
+  height: 44px;
+}

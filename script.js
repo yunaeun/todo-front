@@ -181,3 +181,9 @@ function saveTodoItem(data) {
 window.onload = function () {
   fetchData();
 };
+
+setInterval(function () {
+  // 5초마다 실행할 동작을 여기에 작성합니다.
+  console.log("5 seconds elapsed, refreshing the page");
+  location.reload(); // 페이지 새로고침
+}, 5000); // 5초를 밀리초로 표현한 값
